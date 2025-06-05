@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ReqnrollProject2025.Utilities
 {
-    public static class Log
+    internal class Log
     {
         private static readonly string logFile = "TestLog.txt";
 
