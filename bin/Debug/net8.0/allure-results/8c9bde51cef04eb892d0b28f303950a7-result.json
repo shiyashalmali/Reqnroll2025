@@ -1,0 +1,119 @@
+{
+  "uuid": "c6c7841d-cbcb-415c-989a-ed7141fb1aa9",
+  "historyId": "4b4e7ac851ec3f09294c28cbb204b554",
+  "testCaseId": "e2bbaf08211acb98d727fa5beb05d7ba",
+  "fullName": "ReqnrollProject2025/Features/Login/Verify login with valid credentails",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTO7EL2QVDJOJ9"
+    },
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "Regression,"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    }
+  ],
+  "links": [],
+  "name": "Verify login with valid credentails",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=137.0.7151.56)",
+    "trace": "OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=137.0.7151.56)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)\r\n   at OpenQA.Selenium.Navigator.<>c__DisplayClass6_0.<<GoToUrl>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at ReqnrollProject2025.Pages.LoginPage.launchbrowser() in C:\\Users\\shssh\\source\\repos\\ReqnrollProject2025\\ReqnrollProject2025\\Pages\\LoginPage.cs:line 44\r\n   at ReqnrollProject2025.StepDefinitions.LoginStepDefinitions.GivenUserIsOnTheOrangehrmLoginPage() in C:\\Users\\shssh\\source\\repos\\ReqnrollProject2025\\ReqnrollProject2025\\StepDefinitions\\LoginStepDefinitions.cs:line 24\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at ReqnrollProject2025.Features.LoginFeature.ScenarioCleanupAsync()\r\n   at ReqnrollProject2025.Features.LoginFeature.VerifyLoginWithValidCredentails() in C:\\Users\\shssh\\source\\repos\\ReqnrollProject2025\\ReqnrollProject2025\\Features\\Login.feature:line 45\r\n   at Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.Extensions.MethodInfoExtensions.InvokeAsSynchronousTask(MethodInfo methodInfo, Object classInstance, Object[] arguments) in /_/src/Adapter/MSTest.TestAdapter/Extensions/MethodInfoExtensions.cs:line 190\r\n   at Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.Execution.TestMethodInfo.ExecuteInternal(Object[] arguments) in /_/src/Adapter/MSTest.TestAdapter/Execution/TestMethodInfo.cs:line 251"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=137.0.7151.56)",
+        "trace": "OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=137.0.7151.56)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)\r\n   at OpenQA.Selenium.Navigator.<>c__DisplayClass6_0.<<GoToUrl>b__0>d.MoveNext()\r\n--- End of stack trace from previous location ---\r\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\r\n   at ReqnrollProject2025.Pages.LoginPage.launchbrowser() in C:\\Users\\shssh\\source\\repos\\ReqnrollProject2025\\ReqnrollProject2025\\Pages\\LoginPage.cs:line 44\r\n   at ReqnrollProject2025.StepDefinitions.LoginStepDefinitions.GivenUserIsOnTheOrangehrmLoginPage() in C:\\Users\\shssh\\source\\repos\\ReqnrollProject2025\\ReqnrollProject2025\\StepDefinitions\\LoginStepDefinitions.cs:line 24\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749108198301,
+      "stop": 1749108198684
+    },
+    {
+      "name": "When User enters the username \"Admin\" and password \"admin123\" in the text fields",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749108198684,
+      "stop": 1749108198685
+    },
+    {
+      "name": "When User clicks on submit button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749108198685,
+      "stop": 1749108198685
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749108198685,
+      "stop": 1749108198685
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749108198301,
+  "stop": 1749108198692
+}
